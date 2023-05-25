@@ -1,0 +1,25 @@
+{
+  "name": "pokedex-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "db:migrate": "prisma migrate dev",
+    "db:reset": "prisma migrate reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "prisma": "^4.14.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@prisma/client": "^4.14.1",
+    "fastify": "^4.17.0"
+  }
+}
